@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import Services from "./pages/Services";
+
 
 
 export default function App() {
@@ -16,6 +18,8 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+
       </Routes>
       <Footer />
     </Router>
